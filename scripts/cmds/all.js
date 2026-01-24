@@ -2,15 +2,17 @@ module.exports = {
 	config: {
 		name: "all",
 		version: "1.2",
-		author: "Badhon",
+		author: "NTKhang",
 		countDown: 5,
-		role: 0,
+		role: 1,
 		description: {
+			vi: "Tag tất cả thành viên trong nhóm chat của bạn",
 			en: "Tag all members in your group chat"
 		},
-		category: "utility",
+		category: "box chat",
 		guide: {
-	   	en: "   {pn} [content | empty]"
+			vi: "   {pn} [nội dung | để trống]",
+			en: "   {pn} [content | empty]"
 		}
 	},
 
@@ -18,7 +20,7 @@ module.exports = {
 		const { participantIDs } = event;
 		const lengthAllUser = participantIDs.length;
 		const mentions = [];
-		let body = "Tora shobai koi ree " + (args.join(" ") || "@Tora shobai koi ree");
+		let body = args.join(" ") || "@all";
 		let bodyLength = body.length;
 		let i = 0;
 		for (const uid of participantIDs) {
