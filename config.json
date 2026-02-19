@@ -12,7 +12,7 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "nickNameBot": "পেতনী  𝐁𝐎𝐓",
+  "nickNameBot": "skahil.only1 𝐁𝐎𝐓",
   "prefix": "+",
   "api": "https://api.noobs-api.rf.gd/dipto",
   "approval": false,
@@ -36,9 +36,9 @@
 		""
   ],
   "mainAdmin": [
-    "100009987932864",
+    "100065358226723",
 		"",
-		"61579624827164"
+		"100065358226723"
   ],
   "whiteListMode": {
     "enable": false,
